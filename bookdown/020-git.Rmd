@@ -126,6 +126,18 @@ En el recuadro inferior destacan dos colores donde rojo es lo que estaba descrit
 
 ## Errores comunes: 
 
-cambio
+Un error que suele presentarse es cuando se quiere hacer Push de los cambios realizados sin haber hecho Pull antes en el inicio de la modificación del libro.  Este se puede evidenciar al presionar Push de la siguiente manera
+
+![ ](images/pant-error.png)
+
+Lo primero que se debe hacer ante este error es pulsar Pull y resolver los conflictos presentados.  Un ejemplo de esto se presenta en la siguiente imagen:
+
+![ ](images/)
+
+Una vez solucionados los conflictos se procede hacer Push.
+
+![ ](images/pant-error-1.png)
+
+
 
 
