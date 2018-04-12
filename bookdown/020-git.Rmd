@@ -124,15 +124,17 @@ Seguidamente se realizan los pasos 4.1, 4.2, 4.3 y 4.4 respectivamente.
 
 En el recuadro inferior destacan dos colores donde rojo es lo que estaba descrito anteriormente y el verde es el que contiene los cambios.
 
-## Errores comunes: 
+## Errores comunes 
 
 Un error que suele presentarse es cuando se quiere hacer Push de los cambios realizados sin haber hecho Pull antes en el inicio de la modificación del libro.  Este se puede evidenciar al presionar Push de la siguiente manera
 
 ![ ](images/pant-error.png)
 
-Lo primero que se debe hacer ante este error es pulsar Pull y resolver los conflictos presentados.  Un ejemplo de esto se presenta en la siguiente imagen:
+Lo primero que se debe hacer ante este error es pulsar Pull y resolver los conflictos presentados. Por ejemplo
 
-![ ](images/)
+![ ](images/pant-error-2.png)
+
+Se debe ir al archivo que contiene el conflicto y eliminar los carácteres que fueron agregados, luego hacer Commit de las modificaciones.
 
 Una vez solucionados los conflictos se procede hacer Push.
 
