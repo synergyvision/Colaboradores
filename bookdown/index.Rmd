@@ -64,9 +64,6 @@ Finalmente este es un intento de ofrecer otra visión sobre la enseñanza y la g
 
 Lo dejamos público ya que las herramientas que usamos para ensamblarlo son abiertas y públicas.
 
-## Estructura del libro {-}
-
-TODO: Describir la estructura
 
 ## Información sobre los programas y convenciones {-}
 
