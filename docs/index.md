@@ -4,7 +4,11 @@
 title: "Guía para Colaboradores"
 subtitle: "Ciencia de los Datos Financieros"
 author: "Synergy Vision"
+<<<<<<< HEAD
 date: "2018-05-07"
+=======
+date: "2018-05-06"
+>>>>>>> e2d0a064e2e453b820679b2ddd10d39c4e664325
 knit: "bookdown::render_book"
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
@@ -357,6 +361,7 @@ LaTeX distributions and packages are also updated from time to time, and you may
 
 ```r
 system('pdflatex --version')
+<<<<<<< HEAD
 ## pdfTeX 3.14159265-2.6-1.40.18 (TeX Live 2017)
 ## kpathsea version 6.2.3
 ## Copyright 2017 Han The Thanh (pdfTeX) et al.
@@ -369,6 +374,25 @@ system('pdflatex --version')
 ## Compiled with libpng 1.6.29; using libpng 1.6.29
 ## Compiled with zlib 1.2.11; using zlib 1.2.11
 ## Compiled with xpdf version 3.04
+=======
+## MiKTeX-pdfTeX 2.9.6354 (1.40.18) (MiKTeX 2.9.6350)
+## 2.9.6354 (1.40.18)
+## TeX is a trademark of the American Mathematical Society.
+## using bzip2 version 1.0.6, 6-Sept-2010
+## compiled with curl version 7.54.0; using libcurl/7.54.0 WinSSL
+## compiled with expat version 2.2; using expat_2.2.0
+## compiled with jpeg version 9.2
+## compiled with liblzma version 50020032; using 50020032
+## compiled with libpng version 1.6.29; using 1.6.29
+## compiled with libressl version LibreSSL 2.5.3; using LibreSSL 2.5.3
+## compiled with MiKTeX Application Framework version 1.6334; using 1.6334
+## compiled with MiKTeX Core version 1.6344; using 1.6344
+## compiled with MiKTeX Archive Extractor version 1.6300; using 1.6300
+## compiled with MiKTeX Package Manager version 1.6353; using 1.6353
+## compiled with poppler version 0.55.0
+## compiled with uriparser version 0.8.4
+## compiled with zlib version 1.2.11; using 1.2.11
+>>>>>>> e2d0a064e2e453b820679b2ddd10d39c4e664325
 ```
 
 <!--chapter:end:400-apendice.Rmd-->
