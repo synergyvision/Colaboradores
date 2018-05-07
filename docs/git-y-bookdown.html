@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Guía para Colaboradores</title>
   <meta name="description" content="Guía para Colaboradores">
-  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
 
   <meta property="og:title" content="Guía para Colaboradores" />
   <meta property="og:type" content="book" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Synergy Vision">
 
 
-<meta name="date" content="2018-04-11">
+<meta name="date" content="2018-05-07">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -88,7 +88,7 @@ code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* Com
 code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 </style>
 
-<link rel="stylesheet" href="css\style.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -106,20 +106,18 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefacio</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#por-que-leer-este-libro"><i class="fa fa-check"></i>¿Por qué leer este libro?</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#estructura-del-libro"><i class="fa fa-check"></i>Estructura del libro</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#informacion-sobre-los-programas-y-convenciones"><i class="fa fa-check"></i>Información sobre los programas y convenciones</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#practicas-interactivas-con-r"><i class="fa fa-check"></i>Prácticas interactivas con R</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimientos"><i class="fa fa-check"></i>Agradecimientos</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="acerca-del-autor.html"><a href="acerca-del-autor.html"><i class="fa fa-check"></i>Acerca del Autor</a></li>
-<li class="chapter" data-level="1" data-path="introduccion.html"><a href="introduccion.html"><i class="fa fa-check"></i><b>1</b> Introducción</a><ul>
-<li class="chapter" data-level="1.1" data-path="introduccion.html"><a href="introduccion.html#motivation"><i class="fa fa-check"></i><b>1.1</b> Motivation</a></li>
-</ul></li>
+<li class="chapter" data-level="1" data-path="introduccion.html"><a href="introduccion.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
 <li class="chapter" data-level="2" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html"><i class="fa fa-check"></i><b>2</b> Git y Bookdown</a><ul>
 <li class="chapter" data-level="2.1" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#como-suscribirte-a-git"><i class="fa fa-check"></i><b>2.1</b> ¿Cómo suscribirte a Git?</a></li>
 <li class="chapter" data-level="2.2" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#encontrar-repositorio-en-github"><i class="fa fa-check"></i><b>2.2</b> Encontrar repositorio en GitHub</a></li>
 <li class="chapter" data-level="2.3" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#clonar-repositorio-en-rstudio"><i class="fa fa-check"></i><b>2.3</b> Clonar repositorio en RStudio</a></li>
 <li class="chapter" data-level="2.4" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#como-trabajar-en-bookdown"><i class="fa fa-check"></i><b>2.4</b> ¿Cómo trabajar en bookdown?</a></li>
+<li class="chapter" data-level="2.5" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#errores-comunes"><i class="fa fa-check"></i><b>2.5</b> Errores comunes:</a></li>
 </ul></li>
 <li class="appendix"><span><b>Apéndice</b></span></li>
 <li class="chapter" data-level="A" data-path="software-tools.html"><a href="software-tools.html"><i class="fa fa-check"></i><b>A</b> Software Tools</a><ul>
@@ -229,11 +227,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="images/pant-bookdown-1.png" />
 
 </div>
-<p>2.1. La numeración consecutiva es para que el archivo index.Rmd relacione los capítulos del libro, en este ejemplo existe un único capítulo que es Git y en él se encuentran todos los pasos que estás leyendo.</p>
+<p>2.1. La numeración consecutiva de los archivos .Rmd es para que el archivo index.Rmd relacione los capítulos del libro, en este ejemplo existe un único capítulo que es “Git y Bookdown” (020-git.Rmd) y en él se encuentran todos los pasos que estás leyendo.</p>
 <p>Si necesitas crear un nuevo capítulo debes generar un archivo.Rmd colocando una numeración consecutiva como por ejemplo 030-(nombre) y así sucesivamente.</p>
-<p>2.2. Los archivoss .yml generan la estructura que tendrá el libro por consiguiente no deben cambiarse.</p>
-<p>2.3. La carpeta data debe contener archivos que guarden datos, los cuales pueden llegar a necesitarse para algún ejemplo o ejercicio a desarrollar dentro del libro, ejemplo un archivo.xls.</p>
-<p>2.4. La carpeta images es para guardar las imágenes que serán usadas en el libro.</p>
+<p>2.2. Los archivos .yml generan la estructura que tendrá el libro por consiguiente no deben cambiarse.</p>
+<p>2.3. La carpeta <strong>data</strong> debe contener archivos que guarden datos, los cuales pueden llegar a necesitarse para algún ejemplo o ejercicio a desarrollar dentro del libro, ejemplo un archivo.xls.</p>
+<p>2.4. La carpeta <strong>images</strong> es para guardar las imágenes que serán usadas en el libro.</p>
 <p>2.5. El archivo 010-introduccion.Rmd debe contener la introducción del libro. El archivo 400-apendice.Rmd, debe contener los apendices del libro y el archivo 500-references.Rmd, debe contener las referencias bibliográficas usadas.</p>
 <p>3.- Generación de vista previa, en primer lugar se debe guardar los cambios realizados, luego abrir el archivo index.Rmd para generar la vista previa del libro y ver los cambios realizados. Se realiza de la siguiente manera</p>
 <div class="figure">
@@ -241,6 +239,41 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 </div>
 <p>Esto debe generar un .html. A continuación se le presentará una vista previa</p>
+<div class="figure">
+<img src="images/pant-bookdown-3.png" />
+
+</div>
+<p>4.- ¿Cómo hacer commit?</p>
+<p>Una vez realizado cualquier cambio en el libro es necesario guardarlos en el proyecto, para ello utilizaremos la herramienta <img src="images/pant-git.png" alt="Git" />.</p>
+<p>4.1. Seleccionar los archivos modificados: en este paso solo se deben seleccionar la fuente trabajada (archivos.Rmd), imágenes, archivos de data. No serán seleccionar los archivos que se generan cuando se corre el libro (.html,.md, .json).</p>
+<p>4.2. Hacer comentarios sobre los cambios realizados: aqui colocarán los cambios que se hayan hecho dentro del proyecto. Por ejemplo “creación bookdown colaboradores”.</p>
+<p>4.3. Luego pulsar en Commit.</p>
+<p>4.4. Pulsar push para subir los cambios del proyecto a la nube.</p>
+<p><strong>Observación:</strong> Este tipo herramientas facilita el manejo de un mismo proyecto entre varios colaboradores, pudiendo agregar cambio a un mismo archivo bajo las modificaciones ya hechas sin afectar el trabajo del otro. Lo primero que se debe hacer cuando se trabaja en este tipo de proyecto es Pull (bajar los cambios realizados, los cuales estarán montados en la nube), para no generar errores en los archivos.</p>
+<p>Seguidamente se realizan los pasos 4.1, 4.2, 4.3 y 4.4 respectivamente.</p>
+<div class="figure">
+<img src="images/pant-git-1.png" />
+
+</div>
+<p>En el recuadro inferior destacan dos colores donde rojo es lo que estaba descrito anteriormente y el verde es el que contiene los cambios.</p>
+</div>
+<div id="errores-comunes" class="section level2">
+<h2><span class="header-section-number">2.5</span> Errores comunes:</h2>
+<p>Un error que suele presentarse es cuando se quiere hacer Push de los cambios realizados sin haber hecho Pull antes en el inicio de la modificación del libro. Este se puede evidenciar al presionar Push de la siguiente manera</p>
+<div class="figure">
+<img src="images/pant-error.png" />
+
+</div>
+<p>Lo primero que se debe hacer ante este error es pulsar Pull y resolver los conflictos presentados. Un ejemplo de esto se presenta en la siguiente imagen:</p>
+<div class="figure">
+<img src="images" />
+
+</div>
+<p>Una vez solucionados los conflictos se procede hacer Push.</p>
+<div class="figure">
+<img src="images/pant-error-1.png" />
+
+</div>
 
 
 </div>
@@ -278,10 +311,11 @@ gitbook.start({
 "facebook": false,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
