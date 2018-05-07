@@ -111,7 +111,7 @@ c) Darle un clip en Create Project.
 ![ ](images/pant-rstudio-5.png)
 
 
-## ¿Cómo trabajar en bookdown? {-}
+## ¿Cómo trabajar en bookdown?
 
 1.- Una vez descargado el repositorio, encontrarán entre los archivos una carpeta que se llama bookdown.
 
@@ -123,24 +123,47 @@ c) Darle un clip en Create Project.
 ![ ](images/pant-bookdown-1.png)
 
 
-2.1. La numeración consecutiva es para que el archivo index.Rmd relacione los capítulos del libro, en este ejemplo existe un único capítulo que es Git y en él se encuentran todos los pasos que estás leyendo.
+2.1. La numeración consecutiva de los archivos .Rmd es para que el archivo index.Rmd relacione los capítulos del libro, en este ejemplo existe un único capítulo que es "Git y Bookdown" (020-git.Rmd) y en él se encuentran todos los pasos que estás leyendo.
 
 Si necesitas crear un nuevo capítulo debes generar un archivo.Rmd colocando una numeración consecutiva como por ejemplo 030-(nombre) y así sucesivamente.
 
-2.2. Los archivoss .yml generan la estructura que tendrá el libro por consiguiente no deben cambiarse.
+2.2. Los archivos .yml generan la estructura que tendrá el libro por consiguiente no deben cambiarse.
 
-2.3. La carpeta data debe contener archivos que guarden datos, los cuales pueden llegar a necesitarse para algún ejemplo o ejercicio a desarrollar dentro del libro, ejemplo un archivo.xls.
+2.3. La carpeta **data** debe contener archivos que guarden datos, los cuales pueden llegar a necesitarse para algún ejemplo o ejercicio a desarrollar dentro del libro, ejemplo un archivo.xls.
 
-2.4. La carpeta images es para guardar las imágenes que serán usadas en el libro.
+2.4. La carpeta **images** es para guardar las imágenes que serán usadas en el libro.
 
 2.5. El archivo 010-introduccion.Rmd debe contener la introducción del libro. El archivo 400-apendice.Rmd, debe contener los apendices del libro y el archivo 500-references.Rmd, debe contener las referencias bibliográficas usadas.
 
 
-3.- Generación de vista previa, en primer lugar se debe guardar los cambios realizados, luego abrir el archivo index.Rmd para generar la vista orevia del libro y ver los cambios realizados. Se realiza de la siguiente manera
+3.- Generación de vista previa, en primer lugar se debe guardar los cambios realizados, luego abrir el archivo index.Rmd para generar la vista previa del libro y ver los cambios realizados. Se realiza de la siguiente manera
+
+![ ](images/pant-bookdown-2.png)
 
 
+Esto debe generar un .html. A continuación se le presentará una vista previa
+
+![ ](images/pant-bookdown-3.png)
 
 
+4.- ¿Cómo hacer commit?
+
+Una vez realizado cualquier cambio en el libro es necesario guardarlos en el proyecto, para ello utilizaremos la herramienta ![Git](images/pant-git.png).
+
+
+4.1. Seleccionar los archivos modificados: en este paso solo se deben seleccionar la fuente trabajada (archivos.Rmd), imágenes, archivos de data. No serán seleccionar los archivos que se generan cuando se corre el libro (.html,.md, .json).
+
+4.2. Hacer comentarios sobre los cambios realizados: aqui colocarán los cambios que se hayan hecho dentro del proyecto. Por ejemplo "creación bookdown colaboradores".
+
+4.3. Luego pulsar en Commit.
+
+4.4. Pulsar push para subir los cambios del proyecto a la nube.
+
+**Observación:** Este tipo herramientas facilita el manejo de un mismo proyecto entre varios colaboradores, pudiendo agregar cambio a un mismo archivo bajo las modificaciones ya hechas sin afectar el trabajo del otro. Lo primero que se debe hacer cuando se trabaja en este tipo de proyecto es Pull (bajar los cambios realizados, los cuales estarán montados en la nube), para no generar errores en los archivos.
+
+Seguidamente se realizan los pasos 4.1, 4.2, 4.3 y 4.4 respectivamente.
+
+![ ](images/pant-git-1.png)
 
 
 
