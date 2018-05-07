@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Guía para Colaboradores</title>
   <meta name="description" content="Guía para Colaboradores">
-  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
 
   <meta property="og:title" content="Guía para Colaboradores" />
   <meta property="og:type" content="book" />
@@ -25,22 +25,14 @@
 <meta name="author" content="Synergy Vision">
 
 
-<<<<<<< HEAD
-<meta name="date" content="2018-04-12">
-=======
-<<<<<<< HEAD
 <meta name="date" content="2018-05-07">
-=======
-<meta name="date" content="2018-05-06">
->>>>>>> e2d0a064e2e453b820679b2ddd10d39c4e664325
->>>>>>> ec99c71df5de9bf70d280fd783ad0ad10bc851c4
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="git-y-bookdown.html">
+<link rel="prev" href="teoremas-y-pruebas.html">
 <link rel="next" href="referencias.html">
 <script src="libs/jquery/jquery.min.js"></script>
 <link href="libs/gitbook/css/style.css" rel="stylesheet" />
@@ -96,7 +88,7 @@ code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* Com
 code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 </style>
 
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css\style.css" type="text/css" />
 </head>
 
 <body>
@@ -125,8 +117,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="2.2" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#encontrar-repositorio-en-github"><i class="fa fa-check"></i><b>2.2</b> Encontrar repositorio en GitHub</a></li>
 <li class="chapter" data-level="2.3" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#clonar-repositorio-en-rstudio"><i class="fa fa-check"></i><b>2.3</b> Clonar repositorio en RStudio</a></li>
 <li class="chapter" data-level="2.4" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#como-trabajar-en-bookdown"><i class="fa fa-check"></i><b>2.4</b> ¿Cómo trabajar en bookdown?</a></li>
-<li class="chapter" data-level="2.5" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#errores-comunes"><i class="fa fa-check"></i><b>2.5</b> Errores comunes:</a></li>
+<li class="chapter" data-level="2.5" data-path="git-y-bookdown.html"><a href="git-y-bookdown.html#errores-comunes"><i class="fa fa-check"></i><b>2.5</b> Errores comunes</a></li>
 </ul></li>
+<li class="chapter" data-level="3" data-path="teoremas-y-pruebas.html"><a href="teoremas-y-pruebas.html"><i class="fa fa-check"></i><b>3</b> Teoremas y pruebas</a></li>
 <li class="appendix"><span><b>Apéndice</b></span></li>
 <li class="chapter" data-level="A" data-path="software-tools.html"><a href="software-tools.html"><i class="fa fa-check"></i><b>A</b> Software Tools</a><ul>
 <li class="chapter" data-level="A.1" data-path="software-tools.html"><a href="software-tools.html#r-and-r-packages"><i class="fa fa-check"></i><b>A.1</b> R and R packages</a></li>
@@ -205,38 +198,13 @@ Execution halted</code></pre></div>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">tlmgr</span> install titling  # may require sudo</code></pre></div>
 <p>LaTeX distributions and packages are also updated from time to time, and you may consider updating them especially when you run into LaTeX problems. You can find out the version of your LaTeX distribution by:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">system</span>(<span class="st">&#39;pdflatex --version&#39;</span>)
-<<<<<<< HEAD
-## pdfTeX 3.14159265-2.6-1.40.18 (TeX Live 2017)
-## kpathsea version 6.2.3
-## Copyright 2017 Han The Thanh (pdfTeX) et al.
-## There is NO warranty.  Redistribution of this software is
-## covered by the terms of both the pdfTeX copyright and
-## the Lesser GNU General Public License.
-## For more information about these matters, see the file
-## named COPYING and the pdfTeX source.
-## Primary author of pdfTeX: Han The Thanh (pdfTeX) et al.
-## Compiled with libpng 1.6.29; using libpng 1.6.29
-## Compiled with zlib 1.2.11; using zlib 1.2.11
-## Compiled with xpdf version 3.04</code></pre></div>
-=======
-## MiKTeX-pdfTeX 2.9.6354 (1.40.18) (MiKTeX 2.9.6350)
-## 2.9.6354 (1.40.18)
+## MiKTeX-pdfTeX 2.9.5900 (1.40.17) (MiKTeX 2.9 64-bit)
+## Copyright (C) 1982 D. E. Knuth, (C) 1996-2016 Han The Thanh
 ## TeX is a trademark of the American Mathematical Society.
-## using bzip2 version 1.0.6, 6-Sept-2010
-## compiled with curl version 7.54.0; using libcurl/7.54.0 WinSSL
-## compiled with expat version 2.2; using expat_2.2.0
-## compiled with jpeg version 9.2
-## compiled with liblzma version 50020032; using 50020032
-## compiled with libpng version 1.6.29; using 1.6.29
-## compiled with libressl version LibreSSL 2.5.3; using LibreSSL 2.5.3
-## compiled with MiKTeX Application Framework version 1.6334; using 1.6334
-## compiled with MiKTeX Core version 1.6344; using 1.6344
-## compiled with MiKTeX Archive Extractor version 1.6300; using 1.6300
-## compiled with MiKTeX Package Manager version 1.6353; using 1.6353
-## compiled with poppler version 0.55.0
-## compiled with uriparser version 0.8.4
-## compiled with zlib version 1.2.11; using 1.2.11</code></pre></div>
->>>>>>> e2d0a064e2e453b820679b2ddd10d39c4e664325
+## compiled with zlib version 1.2.8; using 1.2.8
+## compiled with libpng version 1.6.21; using 1.6.21
+## compiled with poppler version 0.42.0
+## compiled with jpeg version 8.4</code></pre></div>
 
 </div>
 </div>
@@ -251,7 +219,7 @@ ga('send', 'pageview');
           </div>
         </div>
       </div>
-<a href="git-y-bookdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="teoremas-y-pruebas.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="referencias.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
@@ -270,11 +238,10 @@ gitbook.start({
 "facebook": false,
 "twitter": true,
 "google": false,
-"linkedin": false,
 "weibo": false,
 "instapper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",

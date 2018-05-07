@@ -1,0 +1,63 @@
+# Teoremas y pruebas
+
+Los teoremas y pruebas se utilizan comúnmente en artículos y libros en matemáticas. 
+En bookdown, los tipos de entornos de teorema admitidos se encuentran en la siguiente tabla para escribir un teorema, puede usar la siguiente sintaxis:
+
+` ```{theorem} `
+
+` Aquí está mi teorema `
+
+` ``` `
+
+| Environment | Printed Name | Label Prefix |
+|:-----------:|:------------:|:------------:|
+|   theorem   |    Teorema   |      thm     |
+|    lemma    |     Lemma    |      lem     |
+|  corollary  |   Corolario  |      cor     |
+| proposition |  Preposición |      prp     |
+|  conjecture |   Conjetura  |      cnj     |
+|  definition |  Definición  |      def     |
+|   example   |    Ejemplo   |      exm     |
+|   exercise  |   Ejercicio  |      exr     |
+
+
+Para escribir otros entornos de teorema, reemplace ` ```{teorema} ` con otros nombres de entorno como se mostró en la tabla anterior, por ejemplo,` ``` {lemma} `.
+
+Un teorema puede tener una opción de nombre para que su nombre se imprima, por ejemplo,
+
+` ```{theorem, name="Teorema de Pitágoras"} `
+
+` Para un triángulo rectángulo, si $ c $ denota la longitud de la hipotenusa `
+
+` y $ a $ y $ b $ denotan las longitudes de los otros dos lados, tenemos `
+
+` $$ a ^ 2 + b ^ 2 = c ^ 2 $$ `
+
+` ``` `
+
+```{theorem, name="Teorema de Pitágoras"} 
+ Para un triángulo rectángulo, si $ c $ denota la longitud de la hipotenusa
+ y $ a $ y $ b $ denotan las longitudes de los otros dos lados, tenemos
+ $$ a ^ 2 + b ^ 2 = c ^ 2 $$ 
+``` 
+
+Para hacer una referencia sobre el teorema se debe colocar label=nombre que se le quiera colocar al teorema.
+
+` ```{theorem, label="foo"} `
+
+` Este es mi teorema  `
+
+` ``` `
+
+```{theorem, label="foo"}
+
+Este es mi teorema
+
+```
+
+Para hacer referencia utilizando label se hace con el comando `\@ref(prefix:label)`, en este caso el prefix=thm que corresponde a teorema.  Para utilizar el ejemplo antes descrito colocamos label=foo.
+
+` \@ref(thm:foo)`
+
+\@ref(thm:foo)
+
