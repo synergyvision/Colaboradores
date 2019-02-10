@@ -1,7 +1,7 @@
 
 # Acerca del Autor {-}
 
-Este material es un esfuerzo de equipo en Synergy Vision, (<http://synergy.vision/nosotros/>).		 
+Este material es un esfuerzo de equipo en Synergy Vision, (<https://synergy.vision/nosotros/>).		 
 
 El propósito de este material es ofrecer una experiencia de aprendizaje distinta y enfocada en el estudiante. El propósito es que realmente aprenda y practique con mucha intensidad. La idea es cambiar el modelo de clases magistrales y ofrecer una experiencia más centrada en el estudiante y menos centrado en el profesor. Para los temas más técnicos y avanzados es necesario trabajar de la mano con el estudiante y asistirlo en el proceso de aprendizaje con prácticas guiadas, material en línea e interactivo, videos, evaluación contínua de brechas y entendimiento, entre otros, para procurar el dominio de la materia.
   		  

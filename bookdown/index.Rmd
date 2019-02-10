@@ -16,7 +16,7 @@ monofontoptions: "Scale=0.8"
 keep_md: yes
 site: bookdown::bookdown_site
 description: ""
-url: 'http\://synergy.vision/Colaboradores/'
+url: 'https\://synergy.vision/Colaboradores/'
 github-repo: synergyvision/Colaboradores/
 cover-image: images/cover.png
 ---
@@ -54,16 +54,13 @@ La versión en línea de este libro se comparte bajo la licencia [Creative Commo
 
 ## ¿Por qué  leer este libro? {-}
 
-Este libro es el resultado de enfocarnos en proveer la mayor cantidad de material sobre Probabilidad y Estadística Matemática con un desarrollo teórico lo más explícito posible, con el valor agregado de incorporar ejemplos de las finanzas y la programación en `R`. Finalmente tenemos un libro interactivo que ofrece una experiencia de aprendizaje distinta e innovadora.
+Esta guía es para orientar a los colaboradores de Synergy Vision en las herramientas de trabajo que utilizamos todos los días y hacernos más productivos, protegiendo el contenido que generamos y presentándolo de la manera más profesional posible.
 
-El un mundo abierto, ya no es tanto el acceso a la información, sino el acceso al conocimiento. Este libro es la base teórica para nuestro Diplomado en Probabilidades y Estadística Matemática aplicado a las Finanzas. Aunque es un material de corte general, hay ejemplos específicos traido de las finanzas. En el Diplomado nos enfocamos en el participante, el propósito es que el instructor ocupa a lo sumo el 20% del tiempo y el resto del tiempo los participantes se dedican a practicar y resolver ejercicios, tanto teóricos como de programación y modelaje en `R` al nivel de un curso de Postgrado. Ésta es la base de un programa en Ciencia de los Datos Financieros.
+Se presenta el uso de la herramienta `git` a través de **github.com** y también de cómo se puede conectar con `RStudio`.
 
-Es mucha la literatura, pero son pocas las opciones donde se pueda navegar el libro de forma amigable y además contar con ejemplos en `R` y ejercicios interactivos, además del contenido multimedia. Esperamos que ésta sea un contribución sobre nuevas prácticas para publicar el contenido y darle vida, crear una experiencia distinta, una experiencia interactiva y visual. El reto es darle vida al contenido asistidos con las herramientas de Internet.
+Esta guía es pública ya que las herramientas que usamos para ensamblarlo son abiertas y públicas.
 
-Finalmente este es un intento de ofrecer otra visión sobre la enseñanza y la generación de material más accesible. Estamos en un mundo multidisciplinado, es por ello que ahora hay que generar contenido que conjugue en un mismo lugar las matemáticas, estadística, finanzas y la computación.
-
-Lo dejamos público ya que las herramientas que usamos para ensamblarlo son abiertas y públicas.
-
+Esperamos sea de utilidad.
 
 ## Información sobre los programas y convenciones {-}
 

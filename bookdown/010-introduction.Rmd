@@ -2,9 +2,9 @@
 
 # Introducción 
 
-En el presente material encontrarán el como suscribirse a Git, luego se indicará paso a paso como hallar un repositorio dentro de GitHub, clonar el archivo para poder manipularlos en RStudio.
+En el presente material encontrarán el como suscribirse a `Git`, luego se indicará paso a paso como hallar un repositorio dentro de `GitHub`, clonar el archivo para poder manipularlos en `RStudio`.
 
-Una vez clonados los archivos se indicará como modificarlos, realizar commit paso a paso acerca de los cambios realizados, subir y bajar los cambios que esten ubicados en la nube.
+Una vez clonados los archivos se indicará como modificarlos, como realizar cambios y subirlos a `Github`  paso a paso, además como subir nuevo contenido y bajar y actualizar nuestro repositorio local con los cambios que esten en `Github`.
 
 Además se demuestra como trabajar en Bookdown de forma detallada.
 

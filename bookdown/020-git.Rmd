@@ -2,7 +2,7 @@
 
 ## ¿Cómo suscribirte a Git?
 
-Para crear una cuenta en GitHub, ingresamos al enlace: [pulsa aquí para dirigirte a la página https://github.com](https://github.com)
+Para crear una cuenta en GitHub, ingresa al enlace siguiente [https://github.com](https://github.com)
 
 1.- Ingresamos nuestro nombre de usuario, correo electrónico, contraseña y confirmamos contraseña.
 
@@ -31,7 +31,7 @@ Donde synergy vision representa la organización y colaboradores es el repositor
 
 3.- Ubicarse en ![Image](images/pant-clone.png)
 
-4.- Darle un clip y copiar el enlace para luego clonarlo en RStudio 
+4.- Hacer click y copiar el enlace para luego clonarlo en RStudio 
 
 ![ ](images/pant-enlace.png)
 
@@ -43,17 +43,17 @@ Donde synergy vision representa la organización y colaboradores es el repositor
 
 
 
-2.- Colocarse en la barra de herramientas del lado derecho, dar clip a New Project
+2.- Colocarse en la barra de herramientas del lado derecho, hacer click a New Project
 
 ![ ](images/pant-rstudio-1.png)
 
 
-3.- Dar clip en Version Control
+3.- Hacer click en Version Control
 
 ![ ](images/pant-rstudio-2.png)
 
 
-4.- Dar clip en Git
+4.- Hacer click en Git
 
 ![ ](images/pant-rstudio-3.png)
 
@@ -64,7 +64,7 @@ a) Copiar el enlace que traes de GitHub en Repository URL
 
 b) En Project directory name, debe colocar el nombre del proyecto (Colaboradores) sin espacio ni caracteres especiales, prestando atención de la dirección donde se está guardando el proyecto (para ubicaciones futuras).
 
-c) Darle un clip en Create Project.
+c) Hacer click en Create Project.
 
 ![ ](images/pant-rstudio-5.png)
 
